@@ -1,0 +1,69 @@
+html, body, h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header {
+           
+    width: 100%;
+    background-color: #F8F4F9;
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+header img {
+    width: 150px;
+}
+
+header a.btn {
+    background: #FFDE59;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: black;
+    font-family: cursive;
+}
+
+header .btn:hover{
+    background-color: #02B0F1;
+    color: white;
+
+}
+
+
+
+
+
+
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  font-family: cursive;
+}
+
+.menu a:hover {
+    color: #02B0F1;
+}
+
